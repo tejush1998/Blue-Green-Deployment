@@ -1,4 +1,4 @@
-# blue-green-deployment
+# Blue-green-deployment
 
 ## Setup & Installation (MacOS)
 
@@ -39,10 +39,10 @@ pm2 start blue/index.js --name blue -p 3000
 ### Server will start at
 
 ```
-locahost:80
+http://locahost:80
 ```
 
-Run deployment script to switch between blue and green apps without downtime
+Run deployment script to switch between blue and green apps without downtime on same port
 
 ```
 chmod +x bg-deployment.sh
