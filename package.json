@@ -1,0 +1,17 @@
+{
+    "name": "express-html-app",
+    "version": "1.0.0",
+    "description": "A simple Express.js application serving HTML content",
+    "main": "index.js",
+    "scripts": {
+        "start": "node blue.js",
+        "start nginx":"sudo nginx",
+        "stop nginx":"sudo nginx -s stop"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "type": "module",
+    "dependencies": {
+        "express": "^4.19.2"
+    }
+}
